@@ -1,0 +1,21 @@
+{
+  "name": "soa-training",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": " ./node_modules/.bin/tsc",
+    "start": "node dist/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@onixjs/core": "^1.0.0-alpha.23",
+    "mongoose": "^5.0.17",
+    "reflect-metadata": "^0.1.12"
+  },
+  "devDependencies": {
+    "typescript": "^2.8.3"
+  }
+}
